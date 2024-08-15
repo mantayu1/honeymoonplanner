@@ -12,7 +12,7 @@ function renderNewTask() {
     const date = taskObject.date;
     const time = taskObject.time;
 
-    const html = `<p>${activity} - - - Date: ${date} - - - Tim: ${time}
+    const html = `<p>${activity} - - - Date: ${date} - - - Time: ${time}
     <button class="done-button" onclick ="todoList.splice(${i}, 1); renderNewTask()">Delete</button>
     </p>`;
     todoListHtml += html;
