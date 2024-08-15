@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dde1e7;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #4a4a4a;
+}
+
+.pepe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 25px 25px;
+  width: 200px;
+  margin: 0 auto; /* Add this line to center align */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 50px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px 50px;
+}
+
+.date-input {
+  width: 150px;
+
+  margin: 5px;
+  border: 0px solid #000;
+  background-color: #dde1e7;
+  border-radius: 40px;
+  padding: 10px;
+
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+.time-input {
+  margin: 5px;
+  border: 0px solid #000;
+  background-color: #dde1e7;
+  border-radius: 40px;
+  padding: 10px;
+
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+  width: 100px;
+}
+.task-input {
+  margin: 5px;
+  border: 0px solid #000;
+  background-color: #dde1e7;
+  border-radius: 40px;
+  padding: 10px;
+
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+  width: 300px;
+}
+
+.add-button {
+  margin: 5px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #dde1e7;
+  color: #4a4a4a;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+.reset-button {
+  margin: 5px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #dde1e7;
+  color: #4a4a4a;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+.task-list {
+  text-align: left;
+  color: #4a4a4a;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  word-break: break-all;
+  list-style-type: upper-alpha;
+}
+.done-button {
+  margin: 5px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #dde1e7;
+  color: #4a4a4a;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.copy-button {
+  margin: 5px auto;
+  padding: 10px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #dde1e7;
+  color: #4a4a4a;
+  border: none;
+  cursor: pointer;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

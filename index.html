@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="h1">HONEY MOON PLANNER</h1>
+    <img class="pepe" src="Pepelove.gif" />
+    <div class="container">
+      <form id="form">
+        <input
+          placeholder="date"
+          class="js-date-input date-input"
+          type="date"
+        />
+
+        <input
+          placeholder="time"
+          class="js-time-input time-input"
+          type="time"
+        />
+
+        <input
+          placeholder="Add a new activity"
+          class="js-task-input task-input"
+        />
+
+        <button class="add-button" onclick="addTodo(); event.preventDefault();">
+          Add
+        </button>
+        <button
+          class="reset-button"
+          onclick="resetTodoList(); event.preventDefault();"
+        >
+          Reset
+        </button>
+      </form>
+    </div>
+    <div class="container2">
+      <p class="task-list"></p>
+    </div>
+    <button
+      class="copy-button"
+      onclick="copyTodoList(); event.preventDefault();"
+    >
+      Copy List
+    </button>
+  </body>
+  <script src="script.js"></script>
+</html>
