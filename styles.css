@@ -23,8 +23,13 @@ body {
   justify-content: center;
   text-align: center;
   margin: 25px 25px;
-  width: 200px;
-  margin: 0 auto; /* Add this line to center align */
+  width: 150px;
+  margin: 0 auto;
+  border: #000;
+  padding: 20px;
+  border-radius: 100px;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
 }
 
 .container {
