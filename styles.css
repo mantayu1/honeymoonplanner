@@ -10,7 +10,10 @@ body {
   margin-top: 100px;
   margin-bottom: 40px;
   font-size: 30px;
-  color: #4a4a4a;
+  color: #dde1e7;
+  
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
 }
 
 .pepe {
